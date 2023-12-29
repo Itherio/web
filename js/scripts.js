@@ -2,7 +2,7 @@
 
   if (document.getElementById('copy')) {
     document.getElementById('copyip').addEventListener('click', () => {
-      navigator.clipboard.writeText('play.itheriomc.net').then((error) => {
+      navigator.clipboard.writeText('play.itheriomc.com').then((error) => {
         if (error)
           console.error(error),
           Toastify({
